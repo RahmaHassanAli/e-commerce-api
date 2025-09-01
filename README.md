@@ -17,10 +17,25 @@ This project was developed as part of a task to demonstrate backend API developm
 
 ## 📂 Project Structure
 .
-├── db/ # SQL scripts to create and populate tables
-├── src/ # Spring Boot application source code
-├── pom.xml # Maven configuration
-└── API-ENDPOINTS.md # List of all available API endpoints
+ecommerce-api/
+├── src/main/java/com/cgc/e_commerce/
+│   ├── controller/          # REST Controllers
+│   ├── service/            # Business Logic Layer
+│   ├── repository/         # Data Access Layer
+│   ├── model/              # Entity Classes
+│   ├── dto/                # Data Transfer Objects
+│   ├── exception/          # Custom Exception Classes
+│   └── ECommerceApplication.java
+├── src/main/resources/
+│   ├── application.properties
+│   └── application-prod.properties
+├── db/                     # SQL Scripts
+│   └── schema.sql         # Database schema
+├── postman/               # API Testing
+│   └── E-Commerce-API.postman_collection.json
+├── Dockerfile             # Container configuration
+├── pom.xml               # Maven dependencies
+└── README.md
 
 Postman Collection
 
