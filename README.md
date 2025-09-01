@@ -16,9 +16,9 @@ This project was developed as part of a task to demonstrate backend API developm
 ---
 
 ## 📂 Project Structure
-.
-db/ # SQL scripts to create and populate tables
-src/ # Spring Boot application source code
-pom.xml # Maven configuration
-API-ENDPOINTS.md # List of all available API endpoints
-postman # collection is included to test the APIs
+
+- db/ # SQL scripts to create and populate tables
+- src/ # Spring Boot application source code
+- pom.xml # Maven configuration
+- API-ENDPOINTS.md # List of all available API endpoints
+- postman # collection is included to test the APIs
